@@ -1,0 +1,73 @@
+/*css para el 404*/
+body {
+    background: rgb(51, 51, 51);
+    height: 100%;
+    font-family: "europa", sans-serif;
+}
+.container {
+    margin: auto auto;
+    width: 700px;
+    /*centrar verticalmente en todas las pantallas*/
+    display: flex;
+    width: 100vh;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    /**/
+}
+.error{
+    /*fondo gris*/
+    border-color: #3b3b3b;
+    background-color: #585858;
+    color: #000;
+    font-size: 50px;
+    line-height: 100px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.error h1{
+    font-size: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+.error h2{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+}
+.error p{
+    padding-top: 1cm;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+.error a{
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+.error a button{
+    transition-duration: 1s;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+.error a button:hover{
+    transition-duration: 1s;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+/* Path: css\styles.css */
